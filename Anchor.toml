@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+solana_learn = "5mbcU5BipQkmgBTeyHnaGAuJ3sFB2V2JWUc4yJWkVg9w"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/limpix/solana/id.json"
+
+[scripts]
+test = "bun test"
